@@ -1,0 +1,124 @@
+[2026-11-24T19:22:27.404Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=88488
+[2026-11-24T19:22:27.408Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.100)
+[2026-11-24T19:22:27.457Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=110 bundledCAs=118
+[2026-11-24T19:22:27.458Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","88488","--shutdown-delay","180","--log-dir","C:\\Users\\yashw\\Desktop\\vrarlab\\prog3\\Logs"]
+[2026-11-24T19:22:27.457Z] [INFO] log Starting relay server...
+[2026-11-24T19:22:27.459Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"88488","shutdownDelaySeconds":180}
+[2026-11-24T19:22:27.463Z] [INFO] log Creating RelayEditor...
+[2026-11-24T19:22:27.462Z] [INFO] log Initializing relay components...
+[2026-11-24T19:22:27.495Z] [INFO] log WebSocket server started
+[2026-11-24T19:22:27.496Z] [INFO] log Relay server initialization completed
+[2026-11-24T19:22:27.497Z] [INFO] log MCP Client initialized at port: 9002
+[2026-11-24T19:22:27.504Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-11-24T19:22:27.565Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-11-24T19:22:27.609Z] [INFO] connection.established clientId=editor-88488-fq22hc port=9001
+[2026-11-24T19:22:27.607Z] [INFO] log Unity client connected with ID: editor-88488-fq22hc (relay 1.0.12-build.100)
+[2026-11-24T19:22:31.816Z] [DEBUG] message.received type=gateway/providers_request
+[2026-11-24T19:22:31.845Z] [DEBUG] log [cursor] getCursorPostInstall: loginExec command="agent"
+[2026-11-24T19:22:32.055Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-11-24T19:22:32.055Z] [DEBUG] log Sent provider versions: 2 providers
+[2026-11-24T19:22:38.850Z] [INFO] log Domain reload signal received from client editor-88488-fq22hc
+[2026-11-24T19:22:38.853Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T19:22:38.854Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T19:22:38.877Z] [WARN] connection.lost clientId=null
+[2026-11-24T19:22:38.877Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-11-24T19:22:38.878Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-11-24T19:22:38.876Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-11-24T19:22:38.876Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T19:22:38.875Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T19:22:46.323Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-11-24T19:22:46.324Z] [INFO] log Unity client connected with ID: editor-88488-wjcmhw (relay 1.0.12-build.100)
+[2026-11-24T19:22:46.325Z] [INFO] connection.established clientId=editor-88488-wjcmhw port=9001
+[2026-11-24T19:22:49.055Z] [DEBUG] message.received type=gateway/providers_request
+[2026-11-24T19:22:49.088Z] [DEBUG] log [cursor] getCursorPostInstall: loginExec command="agent"
+[2026-11-24T19:22:49.294Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-11-24T19:22:49.295Z] [DEBUG] log Sent provider versions: 2 providers
+[2026-11-24T19:24:16.432Z] [INFO] log Domain reload signal received from client editor-88488-wjcmhw
+[2026-11-24T19:24:16.433Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T19:24:16.434Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T19:24:16.442Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T19:24:16.443Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T19:24:16.447Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-11-24T19:24:16.448Z] [WARN] connection.lost clientId=null
+[2026-11-24T19:24:16.449Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-11-24T19:24:16.449Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-11-24T19:24:26.714Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-11-24T19:24:26.714Z] [INFO] log Unity client connected with ID: editor-88488-86ccbb (relay 1.0.12-build.100)
+[2026-11-24T19:24:26.715Z] [INFO] connection.established clientId=editor-88488-86ccbb port=9001
+[2026-11-24T19:24:28.191Z] [DEBUG] message.received type=gateway/providers_request
+[2026-11-24T19:24:28.228Z] [DEBUG] log [cursor] getCursorPostInstall: loginExec command="agent"
+[2026-11-24T19:24:28.507Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-11-24T19:24:28.508Z] [DEBUG] log Sent provider versions: 2 providers
+[2026-11-24T20:00:56.773Z] [INFO] log Domain reload signal received from client editor-88488-86ccbb
+[2026-11-24T20:00:56.811Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T20:00:56.815Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T20:00:56.911Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T20:00:56.908Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T20:00:56.916Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-11-24T20:00:56.938Z] [WARN] connection.lost clientId=null
+[2026-11-24T20:00:56.939Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-11-24T20:00:56.950Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-11-24T20:01:45.174Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-11-24T20:01:45.184Z] [INFO] log Unity client connected with ID: editor-88488-u1rvvz (relay 1.0.12-build.100)
+[2026-11-24T20:01:45.185Z] [INFO] connection.established clientId=editor-88488-u1rvvz port=9001
+[2026-11-24T20:01:49.663Z] [DEBUG] message.received type=gateway/providers_request
+[2026-11-24T20:01:49.836Z] [DEBUG] log [cursor] getCursorPostInstall: loginExec command="agent"
+[2026-11-24T20:01:50.200Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-11-24T20:01:50.201Z] [DEBUG] log Sent provider versions: 2 providers
+[2026-11-24T20:05:31.862Z] [INFO] log Domain reload signal received from client editor-88488-u1rvvz
+[2026-11-24T20:05:31.863Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T20:05:31.863Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T20:05:31.872Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T20:05:31.873Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T20:05:31.874Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-11-24T20:05:31.874Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-11-24T20:05:31.875Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-11-24T20:05:31.874Z] [WARN] connection.lost clientId=null
+[2026-11-24T20:05:42.091Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-11-24T20:05:42.091Z] [INFO] log Unity client connected with ID: editor-88488-npg15r (relay 1.0.12-build.100)
+[2026-11-24T20:05:42.092Z] [INFO] connection.established clientId=editor-88488-npg15r port=9001
+[2026-11-24T20:05:42.221Z] [DEBUG] message.received type=gateway/providers_request
+[2026-11-24T20:05:42.255Z] [DEBUG] log [cursor] getCursorPostInstall: loginExec command="agent"
+[2026-11-24T20:05:42.527Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-11-24T20:05:42.530Z] [DEBUG] log Sent provider versions: 2 providers
+[2026-11-24T20:08:13.024Z] [INFO] log Shutdown request received from client editor-88488-npg15r
+[2026-11-24T20:08:13.025Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-11-24T20:08:13.030Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
+[2026-11-24T20:10:56.324Z] [INFO] log === RELAY SERVER STARTED === (unity-ai-relay v1.0.12-build.100)
+[2026-11-24T20:10:56.310Z] [INFO] relay.startup port=9001 mcpClientPort=9002 editorPid=33220
+[2026-11-24T20:10:56.429Z] [INFO] log TLS trust: NODE_USE_SYSTEM_CA=on systemCAs=110 bundledCAs=118
+[2026-11-24T20:10:56.437Z] [INFO] log Starting relay server...
+[2026-11-24T20:10:56.441Z] [INFO] log Command line arguments: ["bun","B:/~BUN/root/relay_win.exe","--relay","--port","9001","--mcp-client-port","9002","--editor-pid","33220","--shutdown-delay","180","--log-dir","C:\\Users\\yashw\\Desktop\\vrarlab\\prog3\\Logs"]
+[2026-11-24T20:10:56.445Z] [INFO] log Parsed config: {"port":9001,"mcpClientPort":9002,"editorPid":"33220","shutdownDelaySeconds":180}
+[2026-11-24T20:10:56.456Z] [INFO] log Initializing relay components...
+[2026-11-24T20:10:56.458Z] [INFO] log Creating RelayEditor...
+[2026-11-24T20:10:56.530Z] [INFO] log WebSocket server started
+[2026-11-24T20:10:56.532Z] [INFO] log Relay server initialization completed
+[2026-11-24T20:10:56.538Z] [INFO] log MCP Client initialized at port: 9002
+[2026-11-24T20:10:56.557Z] [WARN] log [shell-env] Shell environment did not contain a PATH variable
+[2026-11-24T20:10:56.608Z] [INFO] log Unity MCP Relay server started | Port: 9002 | Endpoints: /mcp/start-server, /mcp/stop-server, /mcp/server-status, /mcp/call-tool
+[2026-11-24T20:10:56.691Z] [INFO] log Unity client connected with ID: editor-33220-bqtc78 (relay 1.0.12-build.100)
+[2026-11-24T20:10:56.695Z] [INFO] connection.established clientId=editor-33220-bqtc78 port=9001
+[2026-11-24T20:10:56.839Z] [DEBUG] message.received type=gateway/providers_request
+[2026-11-24T20:10:56.881Z] [DEBUG] log [cursor] getCursorPostInstall: loginExec command="agent"
+[2026-11-24T20:10:57.259Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-11-24T20:10:57.260Z] [DEBUG] log Sent provider versions: 2 providers
+[2026-11-24T20:12:31.037Z] [INFO] log Domain reload signal received from client editor-33220-bqtc78
+[2026-11-24T20:12:31.038Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T20:12:31.039Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T20:12:31.052Z] [DEBUG] log Relay->Editor communication is blocked
+[2026-11-24T20:12:31.052Z] [DEBUG] acp.queue.pause depth=0
+[2026-11-24T20:12:31.053Z] [INFO] log Client disconnected - blocking and caching for recovery
+[2026-11-24T20:12:31.063Z] [WARN] connection.lost clientId=null
+[2026-11-24T20:12:31.072Z] [WARN] log Client disconnected - sessions will persist until auto-shutdown, reason: Client disconnected
+[2026-11-24T20:12:31.074Z] [INFO] log Auto-shutdown timer started due to client disconnection
+[2026-11-24T20:12:39.910Z] [DEBUG] log Relay->Editor communication is unblocked
+[2026-11-24T20:12:39.911Z] [INFO] log Unity client connected with ID: editor-33220-vlgkn9 (relay 1.0.12-build.100)
+[2026-11-24T20:12:39.914Z] [INFO] connection.established clientId=editor-33220-vlgkn9 port=9001
+[2026-11-24T20:12:40.043Z] [DEBUG] message.received type=gateway/providers_request
+[2026-11-24T20:12:40.073Z] [DEBUG] log [cursor] getCursorPostInstall: loginExec command="agent"
+[2026-11-24T20:12:40.287Z] [DEBUG] log [provider-version] Fetched versions: [{"id":"codex","version":"0.9.5","isCustom":true},{"id":"gemini","isCustom":true}]
+[2026-11-24T20:12:40.289Z] [DEBUG] log Sent provider versions: 2 providers
+[2026-11-24T20:13:20.701Z] [INFO] log Shutdown request received from client editor-33220-vlgkn9
+[2026-11-24T20:13:20.708Z] [INFO] log Unity client requested immediate shutdown - shutting down now, reason: Shutdown requested by client
+[2026-11-24T20:13:20.729Z] [INFO] log Shutdown: Initiating graceful shutdown: Shutdown requested by client
